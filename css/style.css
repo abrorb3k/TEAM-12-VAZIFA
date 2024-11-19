@@ -76,7 +76,6 @@ body{
 
 .one>img:hover{
     color: #013CC6;
-    background-color: #4b7aea;
 }
 .two{
     display: flex;
@@ -85,6 +84,7 @@ body{
     padding-left: 41px;
     text-decoration: none;
     margin-top: 41px;
+    transition: all 0.2s ease-in-out;
 }
 
 .two:hover{
@@ -110,13 +110,11 @@ body{
     height: 24px;
     color: #131313;
     cursor: pointer;
-    transition: all 0.1s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 .two>img:hover{
     color: #013CC6;
-    background-color: #4b7aea;
-    border-radius: 40%;
 }
 
 .helps{
@@ -124,7 +122,7 @@ body{
     align-items: center;
     gap: 16px;
     padding-left: 41px;
-    padding-top: 150px;
+    padding-top: 110px;
     
 }
 
@@ -141,6 +139,105 @@ body{
 .helps>a:hover{
     color: #013CC6;
 }
+
+/* main */
+
 .main{
+    width: 82%;
     margin-left: 17%;
+    padding-top: 56px;
+    padding-bottom: 33px;
 }
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 14px 20px;
+    background-color: white;
+    width: 80%;
+    border-radius: 4px;
+}
+.search-2{
+    border: none;
+    width: 80%;
+}
+.header-right{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+h1{
+   padding-top: 44px;
+   font-weight: 400;
+   font-size: 24px;
+   color: #000;
+   padding-bottom: 24px;
+}
+
+.labells{
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+
+
+label{
+    display: block;
+    padding-bottom: 16px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+}
+.labell input{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 13px 66px 13px 24px;
+    background-color: white;
+    border: 2px solid rgb(238, 220, 220);
+}
+
+
+
+
+table {
+  width: 100%;
+  background-color: white;
+  margin-top: 40px;
+}
+
+thead {
+  background-color: rgb(255, 255, 255);
+  padding-bottom: 29px;
+}
+td a{
+    text-decoration: none;
+}
+
+thead th {
+  text-align: left;
+  padding: 12px;
+  font-size: 14px;
+
+}
+
+
+tr{
+    margin-bottom: 900px;
+}
+tbody td {
+  padding: 12px;
+  font-size: 14px;
+  color: #555;
+}
+
+input[type="checkbox"] {
+  cursor: pointer;
+}
+
+
