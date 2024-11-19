@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F8F8F8;
+    font-family: "Poppins",sans-serif;
+}
+
+.navbar{
+    position: fixed;
+    width: 16%;
+    height: 100vh;
+    background-color: white;
+}
+
+.logo{
+    padding-left: 30px;
+    padding-top: 55px;
+    padding-bottom: 65px;
+}
+
+.logo>a{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 20px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    color: #131313;
+    text-decoration: none;
+    padding-left: 30px;
+    padding-top: 55px;
+    padding-bottom: 65px;
+}
+
+.logo>a:hover{
+    color: #013CC6;
+}
+
+.one{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding-left: 41px;
+    text-decoration: none;
+}
+
+.one:hover{
+    border-left: 3px solid #013CC6;
+}
+
+
+.one>span{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%;
+    color: #131313;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.one>span:hover{
+    color: #013CC6;
+}
+
+.one>img{
+    width: 24px;
+    height: 24px;
+    color: #131313;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+}
+
+.one>img:hover{
+    color: #013CC6;
+    background-color: #4b7aea;
+}
+.two{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding-left: 41px;
+    text-decoration: none;
+    margin-top: 41px;
+}
+
+.two:hover{
+    border-left: 4px solid #013CC6;
+}
+
+.two>span{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%;
+    color: #131313;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.two>span:hover{
+    color: #013CC6;
+}
+
+.two>img{
+    width: 24px;
+    height: 24px;
+    color: #131313;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+}
+
+.two>img:hover{
+    color: #013CC6;
+    background-color: #4b7aea;
+    border-radius: 40%;
+}
+
+.helps{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding-left: 41px;
+    padding-top: 150px;
+    
+}
+
+.helps>a{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    color: #131313;
+    text-decoration: none;
+}
+
+.helps>a:hover{
+    color: #013CC6;
+}
+.main{
+    margin-left: 17%;
+}
